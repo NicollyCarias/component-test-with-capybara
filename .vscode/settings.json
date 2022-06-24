@@ -1,0 +1,19 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/step_definitions/*.rb"
+    ],
+    "cucumberautocomplete.syncfeatures": "*/**/features/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "terminal.integrated.defaultProfile.linux": "bash (login)",
+    "terminal.integrated.defaultProfile.osx": "bash (login)",
+    "terminal.integrated.profiles.linux": {
+        "zsh (login)": {
+          "path": "zsh",
+          "args": ["-l"]
+        },
+        "bash (login)": {
+            "path": "bash",
+            "args": ["-l"]
+        }
+    }
+}

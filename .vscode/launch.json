@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cucumber capybara",
+            "type": "Ruby",
+            "request": "launch",
+            "preLaunchTask": "install",
+            "useBundler": true,
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/cucumber"
+        }
+    ]
+  }

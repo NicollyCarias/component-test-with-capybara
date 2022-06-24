@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "install",
+            "command": "rvm use ruby-2.5.8 && rvm gemset use capybara-tests && bundle install --binstubs"
+        }
+    ]
+}

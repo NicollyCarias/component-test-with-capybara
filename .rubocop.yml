@@ -1,0 +1,10 @@
+---
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.5
+Naming/AccessorMethodName:
+  Enabled: false
+Layout/LineLength:
+  Max: 100
+Style/Documentation:
+  Enabled: false
